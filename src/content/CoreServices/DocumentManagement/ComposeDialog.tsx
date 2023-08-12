@@ -5,7 +5,7 @@ import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
-import Divider from "@mui/material/Divider/Divider";
+// import Divider from "@mui/material/Divider/Divider";
 import Grid from "@mui/material/Grid";
 import IconButton from "@mui/material/IconButton";
 import Input from "@mui/material/Input";
@@ -53,7 +53,7 @@ const ComposeDialog = () => {
             value={wallet_address}
             onChange={handleWalletAddressChange}
           />
-          <Divider style={{ marginTop: "12px", marginBottom: "24px" }} />
+          {/* <Divider style={{ marginTop: "12px", marginBottom: "24px" }} /> */}
           {busPartners.filter((item) => item.w_address.includes(wallet_address))
             .length ? (
             <>

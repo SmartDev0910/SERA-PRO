@@ -11,7 +11,7 @@ import {
   TableRow,
   TableContainer,
   Typography,
-  Divider,
+  // Divider,
 } from "@mui/material";
 import Label from "@/components/Label";
 import { Shipment, ShipmentStatus } from "@/models/core-services/shipment";
@@ -102,7 +102,7 @@ const ShipmentsDialog = () => {
           onChange={handleSearch}
         />
       </Box>
-      <Divider />
+      {/* <Divider /> */}
       <TableContainer>
         <Table>
           <TableHead>
